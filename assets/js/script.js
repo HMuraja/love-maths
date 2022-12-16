@@ -2,19 +2,20 @@
 //Get the button elements and add the listenera to them
 
 document.addEventListener("DOMContentLoaded", function(){
-    let buttons=this.getElementsByTagName("button")
+    let buttons=this.getElementsByTagName("button");
+
     for (let button of buttons){
-        button.addEventListener('button'){
-            if(this.getAttribute('data-type')=== "submit"){
+        button.addEventListener("click", function() {
+            if(this.getAttribute('data-type')=== "submit") {
                 alert("You clikced submit!");
             } else { 
                 let gameType=this.getAttribute('data-type');
-                alert(´You clicked ${gameType}´);
+                alert(`You clicked ${gameType}`);
             }
-        }
-
+        });
     }
-})
+});
+
 function runGame(){
 
 }

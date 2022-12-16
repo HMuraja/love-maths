@@ -112,11 +112,11 @@ body {
 }
 
 .btn--big::after{
-    content:attr(data-type);
-    font-size: 1 rem;
+    content: attr(data-type);
+    font-size: 1rem;
     color: #445361;
     position: relative;
-    left: -0.5rem;
+    left: -0.5em;
 }
 
 .btn--blue {
@@ -249,4 +249,4 @@ body {
         padding: 10px 0;
     }
 
-}s
+}
